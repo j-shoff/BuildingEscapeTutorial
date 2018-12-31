@@ -1,0 +1,18 @@
+##########################
+# UNREAL GENERATED FILES #
+##########################
+
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+
+#Only removed in our local instance for this project.
+BuildingEscape/Content/StarterContent/
+
+#################################
+# VISUAL STUDIO GENERATED FILES #
+#################################
+*.VC.db
+*.suo
