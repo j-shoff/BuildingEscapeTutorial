@@ -30,7 +30,7 @@ public:
 
 private:
 	//How far the player can reach in front of them.
-	float Reach = 100.0f;
+	float Reach = 200.0f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
@@ -49,6 +49,8 @@ private:
 	void SetupInputComponent();
 
 	//Return hit for first physics body in reach
-	const FHitResult GetFirstPhysicsBodyInReach();
+	FHitResult GetFirstPhysicsBodyInReach() const;
+
+	FTwoVectors GetLineTracePoints() const;
 		
 };
